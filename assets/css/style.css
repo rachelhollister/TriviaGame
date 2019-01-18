@@ -1,0 +1,99 @@
+
+* {
+    font-family: 'Fjalla One', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+body {
+    background: url("../images/twinpeakslodge.jpg");
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 100px;
+    align-content: center;
+    color: white;
+    padding: 100px;
+    margin-top: 80px;
+}
+
+.shownumber {
+    margin-top: 100px;
+}
+
+/* target all anchor tags with the same style */
+
+a {
+    text-align: center;
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+a:hover {
+    background-color: rgb(185, 33, 33);
+    color: white;
+}
+
+h2 {
+    font-size: 45px;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 10px;
+    color: white;
+    margin-bottom: 60px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.answers {
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    height: 100px;
+    margin: 20px;
+}
+
+.quiz, .summary {
+    display: none;
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    height: 100px;
+    margin: 20px;
+}
+
+.quiz ul {
+    list-style: none;
+    padding: 10px;
+    color: white;
+}
+
+.selected {
+    background-color: rgb(185, 33, 33);
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+}
+
+.quiz li {
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+}
+
+
+
+
+/* #show-number {
+    color: blue;
+} */
