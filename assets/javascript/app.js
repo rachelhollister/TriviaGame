@@ -7,7 +7,7 @@ $(document).ready(function() {
         correctAnswer = 0,
         incorrectAnswer = 0,
         blank = 0,
-        count = 10;
+        count = 30;
 
 
     //create a loop to calculate the players answers and what is correct
@@ -81,4 +81,3 @@ $(document).ready(function() {
         location.reload();
     });
 });
-
