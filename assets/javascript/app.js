@@ -7,7 +7,7 @@ $(document).ready(function() {
         correctAnswer = 0,
         incorrectAnswer = 0,
         blank = 0,
-        count = 30;
+        count = 10;
 
 
     //create a loop to calculate the players answers and what is correct
@@ -48,7 +48,7 @@ $(document).ready(function() {
         $("#start").hide("slow");
         $("#quiz").show("slow");
 
-        //timer begins for player, will count down for 30 seconds
+        //timer begins for player, will count down
 
         var startTimer = setInterval(function() {
             count--;
