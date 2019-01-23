@@ -1,16 +1,6 @@
-
-* {
-    font-family: 'Fjalla One', sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-weight: normal;
-    text-decoration: none;
-    text-align: center;
-}
-
 body {
-    background: url("../images/twinpeakslodge.jpg");
+	background: url("../images/twinpeakslodge.jpg");
+	text-align: center;
 }
 
 h1 {
@@ -23,77 +13,33 @@ h1 {
     margin-top: 80px;
 }
 
-.shownumber {
-    margin-top: 100px;
-}
-
-/* target all anchor tags with the same style */
-
-a {
-    text-align: center;
-    background-color: white;
-    padding: 10px 25px;
-    border-radius: 5px;
-    display: inline-block;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 30px;
-    margin-top: 60px;
-}
-
-a:hover {
-    background-color: rgb(185, 33, 33);
-    color: white;
-}
-
 h2 {
-    font-size: 45px;
+    text-align: center;
     font-family: 'Fjalla One', sans-serif;
-    padding: 10px;
-    color: white;
-    margin-bottom: 60px;
-    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    align-content: center;
+    color: rgb(116, 23, 23);
+    padding-bottom: 50px;
 }
 
-.answers {
+
+label {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 20px;
-    font-family: 'Fjalla One', sans-serif;
-    color: white;
-    height: 100px;
-    margin: 20px;
+    align-content: center;
+    color: rgb(116, 23, 23);
 }
 
-.quiz, .summary {
-    display: none;
-    font-size: 20px;
-    font-family: 'Fjalla One', sans-serif;
-    color: white;
-    height: 100px;
-    margin: 20px;
-}
 
-.quiz ul {
-    list-style: none;
-    padding: 10px;
-    color: white;
-}
-
-.selected {
-    background-color: rgb(185, 33, 33);
-    padding: 10px;
-    font-size: 20px;
-    font-family: 'Fjalla One', sans-serif;
-    color: white;
-}
-
-.quiz li {
-    cursor: pointer;
-    padding: 10px;
-    color: white;
+#container {
+    background-color: white;
+    padding: 50px;
+    margin: 100px, 500px, 100px, 500px;
 }
 
 
 
 
-/* #show-number {
-    color: blue;
-} */
+
+ 
